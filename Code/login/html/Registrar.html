@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario Usuarios</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="../css/estiloLogin.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="contenedor">
+            <div id="central">
+				<div class="menuHorizontal">
+
+						
+</div>		
+                <div id="login">
+                    <ul>
+                        <img src="../img/logo.png"  width="150" height="90">
+                        <li style="float:right"><a class="active" href="login.html">Iniciar Sesión</a></li>
+                          
+                     </ul>
+                      <div id="texto"> <h3 class="text"> Registro de Usuario</h3></div>
+                       
+                    
+                    <form id="loginform" name="loginform" method="post" action=>
+						<p>
+					  <label for="nombre">Nombres:</label>
+                      <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre" minlength="5" maxlength="40" pattern="[A-Za-z]+" title="Solo Letras" required>
+					</p>
+						<p>
+					  <label for="apellido">Apellidos:</label>
+                      <input type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos" minlength="5" maxlength="40" pattern="[A-Za-z]+" title="Solo Letras" required>
+					</p>
+                    <p>
+                        <label for="celular">Número de Celular:</label>
+                        <input type="text" name="celular" id="celular" placeholder="Ingrese su número de celular" size="10" maxlength="10"  pattern="[0-9]+" title="Solo números" required>
+                      </p> 
+                    <p>
+					  <label for="nombre">Usuario:</label>
+                      <input type="text" name="usuario" id="usuario" placeholder="Ingrese un nombre de usuario" pattern="[A-Za-z0-9]{5,40}" title="Letras y números" required>
+					</p>
+                      <p>
+					  <label for="password">Contraseña:</label>
+                      <input type="password" name="password" id="password" placeholder="Ingrese una contraseña" required>
+					</p>
+                       </form>
+                       <form action="Exito.html">
+
+                        <input class="submit" type="submit" name="submit" id="submit" value="Registrar" >
+                       
+                    </form>
+                    
+                </div>
+              
+            </div>
+        </div>
+            
+    </body>
+</html>
