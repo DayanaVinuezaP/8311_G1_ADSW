@@ -19,8 +19,11 @@
             <div class="container-fluid">
                 <img src="img/logo.png" width="100" height="50">
                 <div id="navbarNav">
+                    <a id="btnCarrito"><span class="badge bg-success" id="carrito">0</span>
+                    <img src="https://img.icons8.com/material-sharp/24/null/add-shopping-cart.png"/>
+                </a>
                     <img src="https://img.icons8.com/windows/32/null/user-male-circle.png"/>
-                    <img src="https://img.icons8.com/material-sharp/24/null/add-shopping-cart.png"/>    
+                        
                 </div>
             </div>
         </nav>
@@ -66,7 +69,7 @@
                                 </div>
                               
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto agregar" data-id="" href="">Agregar</a>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto agregar" data-id="<?php echo $data['id']; ?>" href="#">Agregar</a>
                                     <a class="btn btn-outline-dark mt-auto agregar" data-id="" href="">Personalizar</a>
                                     </div>
                                 </div>
